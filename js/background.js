@@ -1,4 +1,11 @@
-const images = ["canal.jpg", "cat.jpg", "italy.jpg"];
+const images = [
+  "canal.jpg",
+  //   "cat.jpg",
+  "italy.jpg",
+  "maldives.jpg",
+  "sunrise.jpg",
+  "nature.jpg",
+];
 
 const randomImage = images[Math.floor(Math.random() * images.length)];
 
